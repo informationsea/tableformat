@@ -4,10 +4,17 @@ Makefile.in
 
 # http://www.gnu.org/software/autoconf
 
-/autom4te.cache
-/aclocal.m4
-/compile
+/build-aux
+/m4
 /configure
-/depcomp
-/install-sh
-/missing
+/aclocal.m4
+/*.cache
+.deps
+.libs
+*.o
+stamp-h1
+config.status
+config.log
+Makefile
+config.h
+tableformat

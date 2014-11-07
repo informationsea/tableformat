@@ -9,6 +9,8 @@ run()
     fi
 }
 
+mkdir -p build-aux
+
 run aclocal ${ACLOCAL_ARGS}
 #run libtoolize --copy --force
 run autoheader

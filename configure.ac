@@ -2,7 +2,7 @@
 # Process this file with autoconf to produce a configure script.
 
 AC_PREREQ([2.69])
-AC_INIT([tableformat], [0.1], [okamura@informationsea.info])
+AC_INIT([tableformat], [0.0.2], [okamura@informationsea.info])
 AC_CONFIG_SRCDIR([tableformat.c])
 AC_CONFIG_HEADERS([config.h])
 
